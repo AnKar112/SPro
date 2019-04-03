@@ -78,7 +78,8 @@ body {
   .header .form_top {
     position: absolute;
     opacity: 0.78;
-    z-index: 999; }
+    z-index: 999;
+    user-select: none; }
     @media (max-width: 460px) {
       .header .form_top {
         width: 100px; } }
@@ -230,7 +231,8 @@ body {
         position: absolute;
         left: -9%;
         z-index: 100;
-        opacity: 0.72; }
+        opacity: 0.72;
+        user-select: none; }
         @media (max-width: 720px) {
           .banner .banner-content .banner-content_title .banner-content_title-bg {
             width: 28%; } }
@@ -329,7 +331,8 @@ body {
     position: absolute;
     top: -9px;
     right: 0px;
-    z-index: 100; }
+    z-index: 100;
+    user-select: none; }
     @media (max-width: 720px) {
       .banner .banner-timer_man {
         bottom: 20px; } }

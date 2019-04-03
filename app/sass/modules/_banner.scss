@@ -57,6 +57,7 @@
             left: -9%;
             z-index: 100;
             opacity: 0.72;
+            user-select: none;
             @media(max-width: 720px) {
                 width: 28%;
             }
@@ -168,6 +169,7 @@
     top: -9px;
     right: 0px;
     z-index: 100;
+    user-select: none;
     @media(max-width: 720px) {
         bottom: 20px;
     }

@@ -4,6 +4,7 @@
         position: absolute;
         opacity: 0.78;
         z-index: 999;
+        user-select: none;
         @media (max-width: 460px) { 
             width: 100px;
         }
