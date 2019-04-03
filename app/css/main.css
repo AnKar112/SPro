@@ -676,6 +676,9 @@ body {
         bottom: 0%; } }
     @media (max-width: 420px) {
       .slider .slider-pagination {
+        right: 30%; } }
+    @media (max-width: 360px) {
+      .slider .slider-pagination {
         right: 23%; } }
     .slider .slider-pagination .slider-pagination_text {
       font-size: 12px;
@@ -725,7 +728,7 @@ body {
   border-bottom: 1px solid #dde3eb; }
   @media (max-width: 600px) {
     .timeline {
-      padding: 0px 0px 20px 0px; } }
+      padding: 10px 0px 20px 0px; } }
   .timeline .wrapper {
     padding: 0px 142px 0px 214px;
     position: relative; }
